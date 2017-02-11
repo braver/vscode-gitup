@@ -2,11 +2,11 @@
     "name": "gitup",
     "displayName": "GitUp",
     "description": "Open project in GitUp",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Braver",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/braver/vscode-gitup.git"
+        "type": "git",
+        "url": "https://github.com/braver/vscode-gitup.git"
     },
     "engines": {
         "vscode": "^1.5.0"
@@ -23,10 +23,12 @@
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.opengitup",
-            "title": "Open in GitUp"
-        }]
+        "commands": [
+            {
+                "command": "extension.opengitup",
+                "title": "Open in GitUp"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
