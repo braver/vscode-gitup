@@ -14,6 +14,10 @@
     "categories": [
         "Other"
     ],
+    "icon": "logo.png",
+    "galleryBanner": {
+        "color": "#333333"
+    },
     "activationEvents": [
         "onCommand:extension.opengitup"
     ],
