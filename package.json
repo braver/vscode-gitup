@@ -2,7 +2,7 @@
     "name": "gitup",
     "displayName": "GitUp",
     "description": "Open project in GitUp",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "Braver",
     "repository": {
         "type": "git",
